@@ -16,7 +16,7 @@ DB_URL = os.environ.get("DB_URL","mongodb+srv://deepchutia:deepchutia@123@cluste
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "")
+START_PIC = os.environ.get("START_PIC", "https://telegra.phfile:/data/user/0/com.telex.pro/cache/1000037107")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2107586423').split()]
 
