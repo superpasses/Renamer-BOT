@@ -16,7 +16,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Telegram Link : https://t.me/LazyDeveloper 
+Telegram Link : https://t.me/DramaMob
 Repo Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT
 License Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT/blob/main/LICENSE
 """
@@ -41,20 +41,20 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/DramaMob'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/DramaMob')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
         InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/real_MoviesAdda6')
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+kqXOK9jQxMQwZDJl')
         ],[
         InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/LazyDeveloperr'),
-        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/LazyDeveloper')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/DramaMob'),
+        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/Korean_Dramas_Updates')
         ]
         ])
     if START_PIC:
@@ -100,20 +100,20 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/DramaMob'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/DramaMob')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
         InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/real_MoviesAdda6')
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+kqXOK9jQxMQwZDJl')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
+        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://youtube.com/@bilijacksan?si=QAqGzzB8P2buQYiB')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/LazyDeveloperr'),
-        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/LazyDeveloper')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/DramaMob'),
+        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/kdrama_talkies')
         ]
         ]
                 )
@@ -123,11 +123,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://t.me/LazyDeveloperr")
+               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://t.me/DramaMob")
                ],[
                InlineKeyboardButton("❤️‍🔥 How to use me ? ❤️‍🔥", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
                ],[
-               InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/real_MoviesAdda6")
+               InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/MKD_Korean_Drama")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -140,11 +140,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://t.me/lazyDeveloperr")
+               InlineKeyboardButton("❣️ Developer ❣️", url="https://t.me/DramaMob")
                ],[
                InlineKeyboardButton("❤️‍🔥 How to make me ? ❤️‍🔥", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
                ],[
-                InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/real_MoviesAdda6")
+                InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/mkd_korean_drama")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -156,11 +156,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://t.me/LazyDeveloperr")
+               InlineKeyboardButton("❣️ Developer ❣️", url="https://t.me/DramaMob")
                ],[
                InlineKeyboardButton("❤️‍🔥 How to make me ? ❤️‍🔥", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
                ],[
-                InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/real_MoviesAdda6")
+                InlineKeyboardButton("🎬 Join our Movie Channel 🎬", url="https://t.me/kdramatalkies")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
